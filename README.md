@@ -77,8 +77,11 @@ nearly everything in the command line without the need for any user interface.
 ## Release notes
 
 --------------------------------- 0.50_Beta -----------------------------------  (10th of September 2019)
+
  - (Change) The code has been rewritten to allow publishing to Github
+ 
  --------------------------------- 0.45_Beta -----------------------------------  (16th of August 2016)
+
  - (Change) Changed name "Heinrichy" to just "Richy" which makes it simpler and easier to remember.
  - (Change) Code has been optimized for stability
  - (Change) Richy has entered Beta phrase and left Alpha as it works quite well without giving many errors
@@ -92,28 +95,33 @@ nearly everything in the command line without the need for any user interface.
  - (+) Added wikipedia summary (can be used as 'wiki the hobbit' for example)
 
  --------------------------------- 0.38_Alpha -----------------------------------  (12th of August 2016)
+
  - (Change) Changed class with colours to 'colorama' module as colorama has wider range of options
  - (Change) Moved config.conf, schedule.json and movies_list.json to config file
  - (Change) Moved commands to data.json in config folder so its easier to check for commands and there can be lots of variations like "schedule" and "show me my schedule" etc.
  - (Change) Changed how Heinrichy shows schedule so it is updated every time it wants to show it
 
 --------------------------------- 0.36_Alpha -----------------------------------  (11th of August 2016)
+
 - (+) Added ability to search for single movie online using command 'movie search (the movie title)'
 - (Fix) Fixed error handling when user searches for single movie
 
 --------------------------------- 0.35_Alpha -----------------------------------  (6th of August 2016)
+
 - (Change) Changed config format from py to conf (loading using configparser) for flexibility
 - (+) Added ability to turn on/off schedule module, multimedia module and modules that will come in the future
 - (+) New module called multimedia which allows to give you more info about movies you have on the local hard drive
 - (+) Created first_timer.py script which checks if you have required packages installed to run Heinrichy
 
 --------------------------------- 0.27_Alpha -----------------------------------  (24th of July 2016)
+
 - (Change) Converted few lines of code into python-3 compatible so Heinrichy can be run now on both versions of python; 2.7 & 3.*
 - (-) Removed environment.py as it was crashing in python 3
 - (-) Removed ability to change the version of Heinrichy in config
 - (Change) Moved schedule to separate file schedule.json
 
 --------------------------------- 0.23_Alpha -----------------------------------  (20th of July 2016)
+
 - (+) Added ability to search Evi (www.evi.com) if wolframalpha servers return error/no response
 - (+) The user has now the ability to change if the searches will be directed automatically to Evi if wolframalpha returns error, to ask every time or to never contact Evi.
 - (Fix) Fixed bug with schedule list being repeated after opening and exiting schedule module
@@ -121,6 +129,7 @@ nearly everything in the command line without the need for any user interface.
 - (Added) Users now can change the format of the dates in the config
 
 --------------------------------- 0.20_Alpha -----------------------------------  (10th of July 2016)
+
 - (Change) The whole script was rewritten so the code is more elegant and its not a mess.
 - (Change) Config file was changed from json format to py.
 - (+) Created environment.py to check the os and python version on startup.
@@ -146,6 +155,7 @@ nearly everything in the command line without the need for any user interface.
 
 
 ## How can I help?
+
 If you have any ideas on how Richy could be improved or if you found some interesting
 script that could be used as module to Richy, just email me; michpcx@protonmail.ch. Also, if you found some
 bugs in the code or you have more efficient way of performing a task, just create new issue in the [issue tracker](https://github.com/michpcx/Richy/issues).
