@@ -1,0 +1,28 @@
+{
+    "data-response":{
+        "schedule":"1",
+        "go to schedule":"1",
+        "go to schedule module":"1",
+	"schedule module":"1",
+	"i want to edit my schedule":"1",
+	"i would like to edit my schedule":"1",
+	"movies index":"2",
+	"movie index":"2",
+	"index my movies":"2",
+	"i want you to index my movies":"2",
+	"i would like you to index my movies":"2",
+	"could you index my movies":"2",
+	"could you index my movies?":"2",
+	"movies list":"3",
+	"movie list":"3",
+	"movies help":"4",
+	"movie help":"4",
+	"i need help with movies":"4",
+	"movies --help":"4",
+	"movies -h":"4",
+	"movie --help":"4",
+	"movie -h":"4",
+	"movies search":"5",
+	"movie search":"5"
+    }
+}
